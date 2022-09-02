@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Fx test.ma
-//Last modified: Fri, Sep 02, 2022 03:32:49 PM
+//Last modified: Fri, Sep 02, 2022 03:42:44 PM
 //Codeset: 1252
 requires maya "2022";
 requires -nodeType "RadeonProRenderGlobals" "RadeonProRender" "3.3.15";
@@ -10,17 +10,17 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19044)";
-fileInfo "UUID" "889C0656-45AD-DC16-4407-27B48E8A0689";
+fileInfo "UUID" "1BA82D18-4910-490A-E54F-3CA37BEF2409";
 createNode transform -s -n "persp";
 	rename -uid "8FBA4264-4B89-5F8E-993D-CC84A564F409";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.1128296251173957 4.4342423935846647 28.771264936606237 ;
-	setAttr ".r" -type "double3" -8.7383527296037578 4.2000000000001743 -4.9829986461414531e-16 ;
+	setAttr ".t" -type "double3" -7.6959531088544963 11.738866546725024 33.334835220624633 ;
+	setAttr ".r" -type "double3" -18.938352729603849 -12.999999999999927 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6F3D12E9-4123-08A9-477A-4D95B0B27916";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 29.187535707596101;
+	setAttr ".coi" 36.169599406707462;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -79,6 +79,7 @@ createNode pointEmitter -n "emitter1";
 	setAttr -l on ".urpp";
 createNode transform -n "nParticle1";
 	rename -uid "1D277D39-4261-F7E2-20FF-D7851F07EA74";
+	setAttr ".t" -type "double3" -1.1339305114865237 0 0 ;
 createNode nParticle -n "nParticleShape1" -p "nParticle1";
 	rename -uid "677D8641-4C42-934A-94A2-07BE0CC0CA9A";
 	addAttr -s false -ci true -sn "lifespanPP" -ln "lifespanPP" -dt "doubleArray";
