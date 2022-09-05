@@ -1,0 +1,37 @@
+Load warnings for C:/Users/peyto/project.hipnc
+
+Warning:     
+
+/obj/s_here/pyrosolver1:
+
+             Skipping unrecognized parameter "vis_vel".
+             Skipping unrecognized parameter "vis_temperature".
+             Skipping unrecognized parameter "vis_flame".
+             Skipping unrecognized parameter "vis_modifyvel".
+             Skipping unrecognized parameter "vis_modifytemperature".
+             Skipping unrecognized parameter "vis_modifyflame".
+             Skipping unrecognized parameter "sepparm".
+             Not enough elements found for parameter "/obj/s_here/pyrosolver1 Threshold Range".
+             Skipping unrecognized parameter "disturbance_visualize".
+             Skipping unrecognized parameter "disturbance_visplane".
+             Skipping unrecognized parameter "disturbance_visplaneposition".
+             Skipping unrecognized parameter "disturbance_viscolormode".
+             Skipping unrecognized parameter "shredding_visualize".
+             Skipping unrecognized parameter "shredding_visplane".
+             Skipping unrecognized parameter "shredding_visplaneposition".
+             Skipping unrecognized parameter "shredding_viscolormode".
+             Not enough elements found for parameter "/obj/s_here/pyrosolver1 Threshold Range".
+             Skipping unrecognized parameter "turbulence_controlinfluence".
+             Skipping unrecognized parameter "turbulence_visualize".
+             Skipping unrecognized parameter "turbulence_guideplane".
+             Skipping unrecognized parameter "turbulence_guidevistype".
+             Skipping unrecognized parameter "turbulence_guidevismode".
+             Skipping unrecognized parameter "turbulence_guidevisscale".
+             Skipping unrecognized parameter "turbulence_guideplaneval".
+             Skipping unrecognized parameter "turbulence_guidestreamlen".
+             Skipping unrecognized parameter "turbulence_guideminspeed".
+             Skipping unrecognized parameter "hfilt_visualize".
+             Skipping unrecognized parameter "hfilt_guideplane".
+             Skipping unrecognized parameter "hfilt_guideplaneval".
+             Skipping unrecognized parameter "hfilt_guidevismode".
+             Skipping unrecognized parameter "creatematerial".
