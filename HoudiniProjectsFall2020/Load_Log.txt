@@ -1,0 +1,13 @@
+Load warnings for C:/Users/peyto/Documents/Animation Fall 2022/Animation Fall 2022/HoudiniProjectsFall2020/ball shatter 2.hipnc
+
+Warning:     
+
+/obj/orb/rbdconnectedfaces1:
+
+             Invalid channel "constraintgroup" specified in parameter.
+             
+
+/obj/orb/rbdbulletsolver1:
+
+             Skipping unrecognized parameter "setupfolder".
+             Skipping unrecognized parameter "folder9".
